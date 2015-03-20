@@ -1,0 +1,8 @@
+def media():
+    print "Digite o primeiro valor"
+    a = int (raw_input())
+    print "Digite o segundo valor"
+    b = int (raw_input())
+    c = (a+b)/2
+    print "o resultado é", c
+media()    
