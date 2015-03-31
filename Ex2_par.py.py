@@ -4,9 +4,12 @@ def par():
     b = a%2
 
     if b==0:
-        print "numero é par"
+        print "numero e par"
 
     else:
         3
-        print "numero é impar"
+        print "numero e impar"
 par()
+
+# Nota: 1.0
+# Comentario: **
