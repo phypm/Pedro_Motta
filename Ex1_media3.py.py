@@ -4,5 +4,10 @@ def media():
     print "Digite o segundo valor"
     b = int (raw_input())
     c = (a+b)/2
-    print "o resultado é", c
+    print "o resultado e", c
 media()    
+
+
+# Nota: 0.5
+# Comentario: Eram 3 notas a ser calculadas. Dando meio pois a funcao parece
+# correta
