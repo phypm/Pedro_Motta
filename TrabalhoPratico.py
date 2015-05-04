@@ -2,11 +2,15 @@ import math
 
 def distancia(x1,x2,y1,y2):
     dx = x2 -x1
-    dy = y2 - y1 
+    dy = y2 - y1
     dx = dx ** 2
     dy = dy ** 2
     dist = math.sqrt(dx+dy)
     return dist
+
+# Nota: 1.0
+# Nice job!
+
 #------------------------------------------------
 
 def listpto():
@@ -26,11 +30,14 @@ def listpto():
         d = distancia(listax[j-1],listax[j],listay[j-1],listay[j])
         print "Comparando", d
         if tamanho < d:
-            tamanho=d      
+            tamanho=d
         else:
             tamanho=tamanho
-        j=j+1      
+        j=j+1
     print "Amaior distancia e",tamanho
+
+# Nota: 1.0
+# Atenção com a complexidade do código!
 
 #---------------------------------------------------
 
@@ -43,6 +50,9 @@ def polar (x1,x2,y1,y2):
     print "A distancia e %d" % d
     print "O angulo e", angulo
 
+# Nota: 1.0
+# Nice work!
+
 #---------------------------------------------------
 '''
 print "Digite x1"
@@ -50,7 +60,7 @@ x1= float(raw_input())
 print "Digite x2"
 x2= float(raw_input())
 print "Digite y1"
-y1= float(raw_input())    
+y1= float(raw_input())
 print "Digite y1"
 y2= float(raw_input())
 polar (x1,x2,y1,y2)
@@ -63,6 +73,9 @@ def retangulo (a,b,c):
         print "A area e",area
     else:
         print "Não e um triangulo rec. Os valores sao", a, b ,c
+
+# Nota: 1.0
+# Nice job!
 
 #--------------------------------------------------
 '''print "Digite os valores do traingulo"
@@ -98,10 +111,9 @@ def gps (x,y,z):
     print "Os valores sao", fi, lan, h
 
 gps (4010210.546, -4260166.288, -2533008.133)
-        
-        
-        
-    
+
+# Nota: 1.0
+# Great work!
 
 
 
@@ -113,4 +125,5 @@ gps (4010210.546, -4260166.288, -2533008.133)
 
 
 
-    
+
+
