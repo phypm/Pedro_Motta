@@ -27,5 +27,6 @@ while True:
         print "Nao foi um numero valido"
 
 
-
+#Nota: 0.8
+#Comentario: media eh um valor float e nao um inteiro. Para que serve a variavel "maior?"
      
